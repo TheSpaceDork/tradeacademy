@@ -1,0 +1,69 @@
+*{
+    font-family: Poppins;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color:white;
+    padding: 0;
+}
+.main{
+    background-image: url('https://img.freepik.com/free-photo/business-team-planning-marketing-strategy_53876-102032.jpg?size=626&ext=jpg&ga=GA1.2.1050329116.1663656120');
+    padding-top: 5px;
+    height: 100vh;
+    
+   background-size: cover;
+   background-repeat: no-repeat;
+    
+}
+.container{
+   background-color: black; 
+   height: 70vh;
+   width: 35%;
+   border-radius: 30px;
+   margin: auto;
+   padding: 25px;
+   padding-left:4%;
+   margin-top: 70px;
+}
+.input{
+    display: block;
+    width: 70%;
+    
+    font-size: 13px;
+    margin-bottom:30px;
+    height: 20%;
+    border-radius: 10px;
+    padding: 7px;
+}
+.check{
+    margin: 0;
+    display: inline-block;
+}
+.name{
+    display: block;
+}
+.begin{
+     width: 33%;
+    font-size: 13px;
+    margin-bottom:30px;
+    height: 20%;
+    border-radius: 10px;
+    padding: 7px;
+}
+@media only screen and (max-width: 600px){
+    .container{
+        background-color: black; 
+        height: 80vh;
+        width: 70%;
+        border-radius: 30px;
+        margin: auto;
+        padding: 25px;
+        padding-left:7%;
+        margin-top: 60px;
+     }
+     a{
+        font-size: 15px;
+     }
+}
